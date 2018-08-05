@@ -44,8 +44,8 @@ CREATE TABLE `admins` (
 --
 
 INSERT INTO `admins` (`id`, `name`, `email`, `password`, `phone`, `status`, `created_at`, `updated_at`) VALUES
-(1, 'Mohamed', 'medo_emad2011@yahoo.com', '$2y$10$ZfQSYppzZ.axTPx9y/lzduBCGad3PZ9wG6cGKsqltyIvCptIYCpjy', '012345678902', 1, '2018-08-10 22:00:00', '2018-08-01 17:10:26'),
-(4, 'ahmed', 'ahmed_emad2011@yahoo.com', '$2y$10$1ZtA7XeYcCyeokIiPbTOsORrTZ.lKAYnERhZZ7i1g0toV9hlVTsmu', '15254830303', 1, '2018-08-01 15:56:31', '2018-08-01 16:02:10');
+(1, 'Mohamed', 'medo_emad@yahoo.com', '$2y$10$ZfQSYppzZ.axTPx9y/lzduBCGad3PZ9wG6cGKsqltyIvCptIYCpjy', '012345678902', 1, '2018-08-10 22:00:00', '2018-08-01 17:10:26'),
+(4, 'ahmed', 'ahmed_emad@yahoo.com', '$2y$10$1ZtA7XeYcCyeokIiPbTOsORrTZ.lKAYnERhZZ7i1g0toV9hlVTsmu', '15254830303', 1, '2018-08-01 15:56:31', '2018-08-01 16:02:10');
 
 -- --------------------------------------------------------
 
@@ -357,8 +357,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'Mohamed Emad', 'medo_emad2011@yahoo.com', '$2y$10$ZfQSYppzZ.axTPx9y/lzduBCGad3PZ9wG6cGKsqltyIvCptIYCpjy', 'kaBVcx9e5HrzvvnocRb5WSQqF5coWfRJm1qaYpxPAgnjSJXItb5YVzuARokT', '2018-07-28 16:08:44', '2018-07-28 16:08:44'),
-(2, 'Ahmed', 'ahmed_emad2011@yahoo.com', '$2y$10$GaYZZdqt.EXhVtQmpb9TzOGIoHKP/09GfZOb2o33fOYJs5eefTC9.', 'vKOwRbHYSPceJvQxWFDflnpVCzxTsMYORzkGobkdUEvxSnpneKaX1jSlAGvN', '2018-07-28 16:40:59', '2018-07-28 16:40:59');
+(1, 'Mohamed Emad', 'medo_emad@yahoo.com', '$2y$10$ZfQSYppzZ.axTPx9y/lzduBCGad3PZ9wG6cGKsqltyIvCptIYCpjy', 'kaBVcx9e5HrzvvnocRb5WSQqF5coWfRJm1qaYpxPAgnjSJXItb5YVzuARokT', '2018-07-28 16:08:44', '2018-07-28 16:08:44'),
+(2, 'Ahmed', 'ahmed_emad@yahoo.com', '$2y$10$GaYZZdqt.EXhVtQmpb9TzOGIoHKP/09GfZOb2o33fOYJs5eefTC9.', 'vKOwRbHYSPceJvQxWFDflnpVCzxTsMYORzkGobkdUEvxSnpneKaX1jSlAGvN', '2018-07-28 16:40:59', '2018-07-28 16:40:59');
 
 --
 -- Indexes for dumped tables
